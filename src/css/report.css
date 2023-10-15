@@ -1,0 +1,36 @@
+.styled-table{
+    margin: auto;
+    font-size: 0.5cm;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px #000000;
+
+}
+.table-margin{
+    margin-top: 40px;
+}
+
+.tr {
+    background-color: #191978;
+    color: rgb(251, 256, 6);
+}
+.btn{
+    border: none;
+    color:#ffffff;
+    padding: 5px 8px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-edit{
+    background-color: aqua;
+    color: #000000;
+}
+.btn-delete{
+    background-color: #ff0000;
+    
+}

@@ -1,0 +1,50 @@
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    flex-direction: column;
+}
+.regis-form{
+    background-image: linear-gradient(135deg,#f5f5dc #000000);
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 #000000,
+               0 6px 20px 0 #000000;
+              
+}
+.title
+{
+    font-size: 25px;
+    color: #DC143c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+.input-container
+{
+   display: flex;
+   flex-direction: column;
+   margin-top: 5px;
+   gap: 8px;
+}
+.button-container
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+input[type="submit"]
+{
+    font-size: 15px;
+    background-image: linear-gradient(135deg,#ff0000,#000000);
+    color: #ece4e4;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+}
+input[type="submit"]:hover{
+    background: #000000;
+    color: #ffffff;
+}

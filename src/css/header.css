@@ -1,0 +1,42 @@
+.header
+{
+    overflow: hidden;
+    background-color: rgb(22, 19, 11);
+}
+.header-right
+{
+    float: right;
+    color: #ffffff;
+}
+.logo
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: aqua;
+}
+.header p:hover{
+    background-color: #882aa5;
+    color: #ffffff;
+}
+.header p.active{
+    background-color: #1a44b7;
+    color: #ffffff;
+    font-weight: bold;
+}
+.header p{
+    float: left;
+    color: #ff0000;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 2px;
+    border-radius: 4px;
+}
+
+#Nav-Navdropdown-title
+{
+    color: #ffffff;
+    background-color: rgba(44, 43, 43, 0.608);
+    border-radius: 5px;
+}
