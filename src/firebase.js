@@ -1,7 +1,7 @@
 import firebase from "firebase";
 const firebaseConfig ={
 
-  apiKey: "AIzaSyBVe6ZCHP0Z4b-_oXevflih_Olucgky47I",
+  apiKey: "your firedbase id here",
   authDomain: "crudex-a20a9.firebaseapp.com",
   databaseURL: "https://crudex-a20a9-default-rtdb.firebaseio.com",
   projectId: "crudex-a20a9",
